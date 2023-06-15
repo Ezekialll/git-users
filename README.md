@@ -8,6 +8,35 @@ In the project directory, you can run:
 
 ### `npm start`
 
+To get started with Create React App, you can follow these steps to clone the repository and install the necessary dependencies using Git:
+
+Open your terminal or command prompt.
+
+Navigate to the directory where you want to clone the project.
+
+Run the following command to clone the Create React App repository from GitHub:
+
+
+## git clone https://github.com/facebook/create-react-app.git
+
+Once the cloning is complete, navigate into the cloned directory:
+
+## cd create-react-app
+
+Now, you need to install the dependencies. Make sure you have Node.js and npm (Node Package Manager) installed on your system. Run the following command to install the dependencies:
+
+## npm install
+This command will download and install all the required packages and libraries specified in the package.json file.
+
+After the installation is finished, you can start using the available scripts. For example, you can start the development server by running the following command:
+
+## npm start
+This will run the app in the development mode, and you can open http://localhost:3000 in your browser to view it.
+
+To run tests, you can use the following command:
+
+## npm test
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
