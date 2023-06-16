@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./UserCard.css";
-
 const UserCard = ({ user }) => {
   const [showRepositories, setShowRepositories] = useState(false);
   const [repositories, setRepositories] = useState([]);
@@ -14,7 +13,7 @@ const UserCard = ({ user }) => {
       if (response.ok) {
         const data = await response.json();
         setRepositories(data);
-        setShowRepositories(!showRepositories); // Toggle the state
+        setShowRepositories(!showRepositories);
       }
     } catch (error) {
       console.error(error);
@@ -35,9 +34,7 @@ const UserCard = ({ user }) => {
     }
   };
 
-  const hideRepositories = () => {
-    setShowRepositories(false);
-  };
+
 
   return (
     <div className="user-card">
@@ -74,5 +71,8 @@ const UserCard = ({ user }) => {
     </div>
   );
 };
+
+
+
 
 export default UserCard;

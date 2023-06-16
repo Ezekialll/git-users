@@ -1,0 +1,121 @@
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFFCF9;
+  font-family: 'Lato', sans-serif;
+}
+
+img{
+  margin: auto;
+  height: 35%;
+  object-fit:scale-down;
+}
+
+.container{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px #999;
+  background: white;
+  border-radius: 5px;
+}
+
+.message{
+  margin: auto;
+  width: 150px;
+  height: 50px;
+ 
+  position: relative;
+  border-radius: 35px;
+}
+.loading{
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    }
+    .ball{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin: auto;
+      
+    }
+  
+
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;}
+
+  p{
+    text-align: center;
+  }
+
+
+.avatar,
+.name, 
+a{
+  margin: auto;
+}
+
+.name{
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.avatar{
+  width: 250px;
+  border-radius: 50%;
+}
+
+.btn{
+  width: 50px;
+  height: 50px;
+  background: #D4474C;
+  border-radius: 50%;
+  position: absolute;
+  right: 100px;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 1px 1px 5px black;
+}
+
+.about{
+  color: #999;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+}
+  p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  label{
+    margin-top: 10px;
+}
