@@ -61,7 +61,7 @@ const App = () => {
       const c = document.documentElement.scrollTop || document.body.scrollTop;
       if (c > 0) {
         window.requestAnimationFrame(scrollToTop);
-        window.scrollTo(2, c - c / 27);
+        window.scrollTo(2, c - c / 14);
       }
     };
     scrollToTop();
