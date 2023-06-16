@@ -17,7 +17,7 @@ Navigate to the directory where you want to clone the project.
 Run the following command to clone the Create React App repository from GitHub:
 
 
-## git clone https://github.com/facebook/create-react-app.git
+## git clone https://github.com/Ezekialll/git-users
 
 Once the cloning is complete, navigate into the cloned directory:
 
